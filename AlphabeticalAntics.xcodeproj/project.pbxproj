@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		3F1D786C1CAB6EF300717A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D786B1CAB6EF300717A0F /* main.m */; };
 		3F1D786F1CAB6EF300717A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D786E1CAB6EF300717A0F /* AppDelegate.m */; };
-		3F1D78721CAB6EF300717A0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D78711CAB6EF300717A0F /* ViewController.m */; };
+		3F1D78721CAB6EF300717A0F /* PalindromeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D78711CAB6EF300717A0F /* PalindromeViewController.m */; };
 		3F1D78751CAB6EF300717A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D78731CAB6EF300717A0F /* Main.storyboard */; };
 		3F1D78771CAB6EF300717A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D78761CAB6EF300717A0F /* Assets.xcassets */; };
 		3F1D787A1CAB6EF300717A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D78781CAB6EF300717A0F /* LaunchScreen.storyboard */; };
+		3F1D78831CAB84A900717A0F /* IsogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D78821CAB84A900717A0F /* IsogramViewController.m */; };
+		3F1D78861CAB8BBE00717A0F /* AnagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D78851CAB8BBE00717A0F /* AnagramViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		3F1D786B1CAB6EF300717A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F1D786D1CAB6EF300717A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F1D786E1CAB6EF300717A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F1D78701CAB6EF300717A0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F1D78711CAB6EF300717A0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F1D78701CAB6EF300717A0F /* PalindromeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromeViewController.h; sourceTree = "<group>"; };
+		3F1D78711CAB6EF300717A0F /* PalindromeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeViewController.m; sourceTree = "<group>"; };
 		3F1D78741CAB6EF300717A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1D78761CAB6EF300717A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1D78791CAB6EF300717A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1D787B1CAB6EF300717A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1D78811CAB84A900717A0F /* IsogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsogramViewController.h; sourceTree = "<group>"; };
+		3F1D78821CAB84A900717A0F /* IsogramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsogramViewController.m; sourceTree = "<group>"; };
+		3F1D78841CAB8BBE00717A0F /* AnagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnagramViewController.h; sourceTree = "<group>"; };
+		3F1D78851CAB8BBE00717A0F /* AnagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnagramViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,13 @@
 			children = (
 				3F1D786D1CAB6EF300717A0F /* AppDelegate.h */,
 				3F1D786E1CAB6EF300717A0F /* AppDelegate.m */,
-				3F1D78701CAB6EF300717A0F /* ViewController.h */,
-				3F1D78711CAB6EF300717A0F /* ViewController.m */,
+				3F1D78701CAB6EF300717A0F /* PalindromeViewController.h */,
+				3F1D78711CAB6EF300717A0F /* PalindromeViewController.m */,
+				3F1D78811CAB84A900717A0F /* IsogramViewController.h */,
+				3F1D78821CAB84A900717A0F /* IsogramViewController.m */,
 				3F1D78731CAB6EF300717A0F /* Main.storyboard */,
+				3F1D78841CAB8BBE00717A0F /* AnagramViewController.h */,
+				3F1D78851CAB8BBE00717A0F /* AnagramViewController.m */,
 				3F1D78761CAB6EF300717A0F /* Assets.xcassets */,
 				3F1D78781CAB6EF300717A0F /* LaunchScreen.storyboard */,
 				3F1D787B1CAB6EF300717A0F /* Info.plist */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1D78721CAB6EF300717A0F /* ViewController.m in Sources */,
+				3F1D78721CAB6EF300717A0F /* PalindromeViewController.m in Sources */,
 				3F1D786F1CAB6EF300717A0F /* AppDelegate.m in Sources */,
 				3F1D786C1CAB6EF300717A0F /* main.m in Sources */,
+				3F1D78831CAB84A900717A0F /* IsogramViewController.m in Sources */,
+				3F1D78861CAB8BBE00717A0F /* AnagramViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
